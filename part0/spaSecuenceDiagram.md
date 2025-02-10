@@ -28,6 +28,8 @@ sequenceDiagram
     activate server
     server-->>browser: [{content:"ffff",date:"2025-02-10T13:16:09.063Z"},...]
     deactivate server
+   
 
+    Note right of browser: The browser executes the callback function that renders the notes
 
 ```

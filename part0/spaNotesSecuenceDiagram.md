@@ -8,5 +8,5 @@ sequenceDiagram
     activate server
     server-->>browser: 201 Created
     deactivate server
-
+    
 ```

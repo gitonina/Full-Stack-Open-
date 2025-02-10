@@ -33,5 +33,5 @@ sequenceDiagram
     server-->>browser: [{content:"asdasda",date:"2025-02-10T13:04:28.521Z"},...]
     deactivate server
 
-
+    Note right of browser: The browser executes the callback function that renders the notes
 ```
