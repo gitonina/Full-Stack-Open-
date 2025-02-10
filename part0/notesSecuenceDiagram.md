@@ -26,7 +26,7 @@ sequenceDiagram
     deactivate server
 
 
-   ...browser starts executing javascript code, which requests json data from server ...
+    Note right of browser :browser starts executing javascript code, which requests json data from server 
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
