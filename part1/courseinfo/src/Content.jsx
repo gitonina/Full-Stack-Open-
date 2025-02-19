@@ -1,5 +1,5 @@
 import {Part} from './Part.jsx'
-
+import React from 'react'
 export function Content(props){
     
    
